@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sugar Plum Café</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Comic Sans MS", "Poppins", sans-serif;
+      background-color: #fff4f8;
+      color: #5a2a3a;
+    }
+
+    header {
+      background-color: #ffb6c1;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      margin: 0 15px;
+      color: #5a2a3a;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: white;
+    }
+
+    .hero {
+      padding: 60px 20px;
+      text-align: center;
+      background-image: linear-gradient(#fff0f5, #ffe4ec);
+    }
+
+    .hero h2 {
+      font-size: 2em;
+    }
+
+    .menu {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .menu h2 {
+      margin-bottom: 20px;
+    }
+
+    .menu-items {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .item {
+      background-color: white;
+      border-radius: 15px;
+      padding: 20px;
+      width: 200px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .item h3 {
+      margin: 10px 0 5px;
+    }
+
+    .contact {
+      background-color: #ffb6c1;
+      padding: 30px;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #5a2a3a;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    button {
+      background-color: #ff69b4;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 20px;
+      color: white;
+      cursor: pointer;
+      font-size: 1em;
+    }
+
+    button:hover {
+      background-color: #ff85c1;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🍰 Sugar Plum Café</h1>
+    <nav>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Fresh Coffee & Cute Desserts 💕</h2>
+    <p>Your cozy happy place for sweet treats.</p>
+    <button onclick="welcomeMessage()">Say Hi!</button>
+  </section>
+
+  <section class="menu" id="menu">
+    <h2>🌸 Our Menu</h2>
+    <div class="menu-items">
+      <div class="item">
+        <h3>☕ Latte</h3>
+        <p>$4.00</p>
+      </div>
+      <div class="item">
+        <h3>🧁 Cupcake</h3>
+        <p>$3.50</p>
+      </div>
+      <div class="item">
+        <h3>🍓 Strawberry Cake</h3>
+        <p>$5.00</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>📍 Visit Us</h2>
+    <p>123 Sweet Street, Candy Town</p>
+    <p>Email: hello@sugarplumcafe.com</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Sugar Plum Café 💖</p>
+  </footer>
+
+  <script>
+    function welcomeMessage() {
+      alert("Welcome to Sugar Plum Café! 💕☕");
+    }
+  </script>
+
+</body>
+</html>
